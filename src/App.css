@@ -1,4 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
-  background-color: #fff;
-  color: #9e9c9c;
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
 }
+.navbar{
+  width: 70%;
+  height: 160px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: end;
+  column-gap: 90px;
+  font-size: 25px;
+  font-family: 'Black Ops One';
+}
+header{
+  border: 1px solid transparent;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  font-family:'poppins',sans-serif;
+}
+.chose-timer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
+.navbar .BiSolidUserCircle{
+  width: 5vw;
+}
+.user-container svg {
+    width: 30px; 
+    height: 30px;
+}
+.text-box{
+  border: 1px solid white;
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.text-box p{
+  color: #a7a5a5e7;
+}
+
+.Filter-options{
+  border: 1px solid aqua;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+.footer{
+  border: 1px solid rgb(180, 49, 241);
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  height: 80px;
+  align-items: end;
+}
+.footer .social-icons a svg{
+    width: 30px;
+    height: 30px;
+    margin-right:10px ;
+    fill: rgba(15, 15, 223, 0.906);
+}
+.footer select{
+  width: 11vw;
+  height: 5vh;
+  background-color: #fff;
+  color: #000;
+  
+}
+

@@ -1,13 +1,18 @@
 import React from 'react';
 import Appcss from "./App.css";
-import TypingTest from './Components/TypingTest';
 import Navbar from './Components/Navbar';
+import TypingBox from './Components/TypingBox';
+import FilterSection from './Components/FilterSection';
+import Footer from './Components/Footer';
+
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <TypingTest />
+      <TypingBox />
+      <FilterSection/>
+      <Footer/>
     </div>
   );
 }
