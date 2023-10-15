@@ -11,7 +11,7 @@ const Footer = () => {
                 <a><AiFillLinkedin /></a>
                 <a><MdAttachEmail /></a>
                 <a><AiFillInstagram /></a>
-            </div>
+            </div> 
             <select className='theme custom-select '>
                 <option value="Darken-black">Darken-black</option>
                 <option value="coloured-grey">coloured-grey</option>
